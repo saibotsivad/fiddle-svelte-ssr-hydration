@@ -1,0 +1,30 @@
+{
+  "name": "fiddle-svelte-ssr-hydration",
+  "version": "0.0.0",
+  "description": "Svelte plus SSR plus hydration.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "uvu src",
+    "build": "rollup -c",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saibotsivad/fiddle-svelte-ssr-hydration.git"
+  },
+  "author": {
+    "name": "Tobias Davis",
+    "email": "tobias@davistobias.com",
+    "url": "https://davistobias.com"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://github.com/saibotsivad/fiddle-svelte-ssr-hydration",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "make-dir": "^4.0.0",
+    "rollup": "^4.9.2",
+    "rollup-plugin-svelte": "^7.1.6",
+    "svelte": "^4.2.8"
+  }
+}
